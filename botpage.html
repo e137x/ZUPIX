@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zupix Discord Bot</title>
+    <style>
+        body {
+            background-color: #202225;
+            color: #ffffff;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #2b2d31;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+        }
+
+        .title {
+            font-size: 2em;
+            color: #7289da;
+            text-shadow: 0px 0px 10px rgba(114, 137, 218, 0.5);
+        }
+
+        .description {
+            font-size: 1.1em;
+            opacity: 0.8;
+            margin-bottom: 20px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 15px;
+        }
+
+        .feature-card {
+            background: #23272a;
+            padding: 15px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .feature-title {
+            color: #7289da;
+            font-size: 1.3em;
+            margin-bottom: 5px;
+        }
+
+        .feature-description {
+            font-size: 1em;
+            opacity: 0.9;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #7289da;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 1.1em;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #5b6eae;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://raw.githubusercontent.com/e137x/ZUPIX/main/Zupix.png" alt="Zupix Logo">
+            <h1 class="title">Zupix</h1>
+        </div>
+        <p class="description">The all-in-one Discord bot to enhance your server experience! 🎮</p>
+
+        <div class="features">
+            <div class="feature-card">
+                <div class="feature-icon">📈</div>
+                <h3 class="feature-title">Leveling System</h3>
+                <p class="feature-description">Track user engagement with customizable leveling features.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🎁</div>
+                <h3 class="feature-title">Automatic Drops</h3>
+                <p class="feature-description">Keep your server exciting with automatic rewards.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🎤</div>
+                <h3 class="feature-title">Voice Channel Roles</h3>
+                <p class="feature-description">Automated role management for voice channels.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">⏰</div>
+                <h3 class="feature-title">AFK Utility</h3>
+                <p class="feature-description">Let others know when you're away from the keyboard.</p>
+            </div>
+        </div>
+
+        <a href="#" class="cta-button">Add to Your Server</a>
+    </div>
+</body>
+</html>
